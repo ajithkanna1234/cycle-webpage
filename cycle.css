@@ -1,0 +1,1208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* ----header----- */
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    padding: 20px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.list ul li,a{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.search img{
+    padding: 10px;
+    margin: 0 20px;
+}
+
+/* ----background----- */
+
+.back{
+    height: 900px;
+    width: 100%;
+    background-image: url(image1/home\ backgroun\ img.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.front{
+    /* position: absolute; */
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 500px;
+    width: 600px;
+    background-color: rgba(252, 249, 249, 0.856);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.front div{
+    height: 300px;
+    width: 400px;
+    /* background-color: blue; */
+    padding: 0 20px;
+    border-left: 6px solid rgb(189, 176, 154);
+    margin-right: 40px;
+}
+
+.front div p{
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(189, 176, 154);
+    line-height: 80px;
+    
+}
+
+.front div h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+#span{
+    color:rgb(189, 176, 154);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+/* .front div h1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+} */
+
+/* .front div span{
+    color:rgb(189, 176, 154);
+} */
+
+.front div button{
+    background-color: rgb(189, 176, 154);
+    border: none;
+    padding: 10px;
+    height: 60px;
+    width: 60%;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.curv{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    /* background-color: aqua; */
+    margin:auto;
+    border-radius: 15px;
+    bottom: 60px;
+    background-color: rgba(252, 249, 249, 0.856);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.curv div{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.curv .outer{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    background-color: aliceblue;
+}
+
+/* -----top accessories----- */
+
+.top{
+    height: 150px;
+    width: 100%;
+}
+
+.top div{
+    height: 100px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 170px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(234, 234, 234);
+}
+
+.top .title{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    /* background-color: blueviolet; */
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    left: 520px;
+    top: 80px;
+    letter-spacing: 2px;
+}
+
+.title p{
+    background-color: white;
+}
+
+.para p{
+    margin-top: 50px;
+    color: rgb(33, 37, 41);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ----category----- */
+
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+}
+.category div{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.category div h1{
+    color: rgb(197, 166, 69);
+    margin: 30px 0;
+}
+.category div p{
+    color: rgb(124, 124, 124);
+    line-height: 30px;
+    font-size: 20px;
+}
+.category div button{
+    background-color: rgb(51, 51, 51);
+    border: none;
+    padding: 10px;
+    height: 60px;
+    width: 40%;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* -----best--- */
+.best{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* border: 1px solid blue; */
+}
+.best div{
+    height: 50px;
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.best button{
+    background-color: rgb(189, 176, 154);
+    border: none;
+    padding: 10px;
+    height: 60px;
+    width: 80%;
+    color: aliceblue;
+    font-size: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.outer button{
+    background-color: white;
+    border: 1px solid gray;
+    color: rgb(44, 44, 44);
+}
+
+/* ---cycles-- */
+
+.cycles{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1100px;
+    width: 95%;
+    margin: auto;
+}
+.sale{
+    position: relative;
+    overflow: hidden;
+}
+#sale{
+    width: 155px;
+    height: 85px;
+    background-color: rgb(116, 19, 19);
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    transform: rotate(45deg);
+    padding-bottom: 15px;
+    right: -59px;
+    top: -24px;
+    font-size: 15px;
+    /* position: absolute;
+    bottom: 400px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 400px;
+    width: 200px;
+    background-color: red;
+    color: white; */
+}
+.cycles div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(146, 146, 146);
+    height: 400px;
+    width: 300px;
+    color: rgb(146, 146, 146);
+    line-height: 40px;
+}
+.cycle div p,span{
+    color:black;
+    font-size: 20px;
+}
+
+.cycles div .rating{
+    border: none;
+    height: 80px;
+    flex-direction: row;
+}
+.rating i{
+    margin: 2px;
+}
+/* -----back----- */
+.img-1{
+    background-image: url(image1/john-mark-arnold-ti4kGLkGgmU-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    padding: 20px;
+    margin: 40px 0;
+}
+.img-2{
+    background-image: url(image1/hintor\ image.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: 20px;
+    margin-left: 1000px;
+}
+.img-3{
+    height: 200px;
+    width: 400px;
+    margin: 40px auto;
+    margin-left: 1000px;
+    border: 2px dashed black;
+    background-color: rgb(244, 244, 244);
+    padding: 50px 20px;
+    color: rgb(124, 124, 124);
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;  
+}
+.img-3 span{
+    color: rgb(124, 124, 124);
+    border-bottom: 1px solid rgb(124, 124, 124);
+    padding: 10px 0;
+}
+/* ---cycles-2----- */
+
+.cycles-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 95%;
+    margin: auto;
+}
+.cycles-1 div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(146, 146, 146);
+    height: 500px;
+    width: 300px;
+    color: rgb(146, 146, 146);
+    line-height: 40px;
+}
+.cycle-1 div p,span{
+    color:black;
+    font-size: 20px;
+}
+
+.cycles-1 div .rating{
+    border: none;
+    height: 80px;
+    flex-direction: row;
+}
+/* ----brand----- */
+
+.brand{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto;
+}
+/* -----pink container---- */
+.p-con{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(250, 238, 247);
+    height: 705px;
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.p-1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    margin-left: auto;
+}
+.p-1 div{
+    margin: 10px;
+    width: 200px;
+}
+.p-1 div>img{
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+}
+.p-2{
+    text-align: center;
+    background-color: white;
+    height: 600px;
+    flex-basis: 50%;
+    margin: 10px auto 10px 90px;
+    border: 20px solid rgb(217, 217, 217);
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+.p-2 p{
+    font-size: xx-large;
+    color: rgb(51, 51, 51);
+    margin: 10px;
+}
+.p-2 input{
+    width: 75%;
+    padding: 20px;
+    font-size:large;
+}
+.p-2 button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 18px;
+    margin: 30px;
+    border-radius: 5px;
+}
+/* ---g-box----- */
+.g-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(85, 85, 85);
+    height: 420px;
+    width: 100%;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.g-box div{
+    /* background-color: aqua; */
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+    line-height: 50px;
+    color: rgb(211, 211, 211);
+}
+.g-box span{
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.g-box .last-box{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    line-height: normal;
+}
+.last-box h5{
+    font-size: small;
+    color: rgb(211, 211, 211);
+    margin: 20px 0;
+}
+.last-box div{
+    display: flex;
+    text-align: center;
+    height: 45px;
+    width: 260px;
+}
+.last-box button{
+    width: 70%;
+    height: 45px;
+    border: none;
+    color: rgb(85, 85, 85);
+}
+.last-box input{
+    border: none;
+    padding-left: 10px;
+}
+@media only screen and (max-width:425px){
+    .list ul li,a{
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: black;
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    
+    .back{
+        background-size: cover;
+        height: 400px;
+    }
+    .front{
+        height: 200px;
+        width: 70%;
+        margin: auto;
+
+    }
+    .front div{
+        height: 200px;
+        width: 400px;
+        background-color: blue;
+        padding: 0 20px;
+        border-left: 6px solid rgb(189, 176, 154);
+        margin-right: 40px;
+    }
+    .front div p{
+        font-size: medium;
+        line-height: 40px;
+        
+    }
+    
+    .front div h2{
+        font-size: medium;
+    }
+    #h1{
+        font-size: x-large;
+    }
+    #span{
+        font-size: x-large;
+    }
+    .front div button{
+        padding: 10px;
+        height: 40px;
+        width: 60%;
+        font-size: 10px;
+        margin: 40px auto 0 auto;
+    }
+
+    .curv{
+        height: 20px;
+        width: 50px;
+        bottom: 40px;
+    }
+    .curv div{
+        height: 10px;
+        width: 10px;
+    }
+
+    .top div{
+        height: 100px;
+        width: 100%;
+        font-weight: 900px;
+        font-size: 170px;
+        position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        color: rgb(234, 234, 234);
+    }
+    
+    .top .title{
+        width: 100%;
+        font-size: 32px;
+        left: 0px;
+    }
+    .para p{
+        margin-top: 30px;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .category{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+    .category div{
+        font-size: small;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+    }
+    .category div p{
+        line-height: normal;
+        font-size: small;
+    }
+    .category div button{
+        font-size: small;
+    }
+
+    .best div{
+        width: 100%;
+    }
+    .best button{
+        height: 50px;
+        width: 100%;
+        color: aliceblue;
+        font-size: small;
+        margin:auto;
+    }
+    .outer button{
+        background-color: white;
+        border: 1px solid gray;
+        color: rgb(44, 44, 44);
+    }
+
+    .cycles{
+        height: auto;
+        width: 100%;
+    }
+    .cycles div{
+        margin: 20px;
+        width: 100%;
+    }
+    
+
+    .img-1{
+        background-size: cover;
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+    .img-2{
+        background-size: cover;
+        height: 200px;
+        margin: auto;
+    }
+    .img-3{
+        width: 100%;
+        margin: auto;
+        font-size: small;  
+    }
+
+    .cycles-1{
+        height: auto;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .cycles-1 div{
+        margin: 20px;
+        height: 500px;
+        width: 100%;
+    }
+
+    .brand{
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .p-con{
+        height: auto;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+    .p-1{
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .p-1 div{
+        margin: 10px auto;
+    }
+    .p-2{
+        margin: 10px auto;
+        height: 600px;
+        width: 100%;
+    }
+    .p-2 p{
+        font-size: medium;
+    }
+    .p-2 input{
+        width: 100%;
+        padding: 10px;
+        font-size: medium;
+    }
+    .p-2 button{
+        width: 100%;
+        margin: auto;
+    }
+
+    .g-box{
+        height: auto;
+        width: 100%;
+    }
+    .g-box .last-box{
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width:426px) and (max-width:768px){
+    .list ul li,a{
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: black;
+        display: inline-block;
+        padding: 10px;
+        /* border: 1px solid black; */
+    }
+    
+    .back{
+        background-size: cover;
+        height: 500px;
+    }
+    .front{
+        height: 200px;
+        width: 40%;
+        margin-bottom: 35px ;
+        margin-left: 60px;
+    }
+    .front div{
+        height: 150px;
+        width: 400px;
+        /* background-color: blue; */
+        padding: 0 20px;
+        border-left: 6px solid rgb(189, 176, 154);
+        margin:20px;
+    }
+    .front div p{
+        font-size: medium;
+        line-height: 40px;
+    }
+    
+    .front div h2{
+        font-size: medium;
+    }
+    #h1{
+        padding: 0;
+        font-size: x-large;
+    }
+    #span{
+        font-size: x-large;
+    }
+    .front div button{
+        padding: 10px;
+        height: 40px;
+        width: 60%;
+        font-size: 10px;
+        margin: 30px auto 0 auto;
+    }
+
+    .curv{
+        height: 20px;
+        width: 50px;
+        bottom: 40px;
+    }
+    .curv div{
+        height: 10px;
+        width: 10px;
+    }
+
+    .top div{
+        height: 100px;
+        width: 100%;
+        font-weight: 900;
+        font-size: 170px;
+        position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        color: rgb(234, 234, 234);
+    }
+    
+    .top .title{
+        width: 100%;
+        font-size: 32px;
+        left: 0px;
+    }
+    .para p{
+        margin-top: 30px;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .category{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+    .category div{
+        font-size: small;
+        height: 500px;
+        width: 300px;
+        text-align: center;
+    }
+    .category div p{
+        line-height: normal;
+        font-size: small;
+    }
+    .category div button{
+        font-size: small;
+    }
+
+    .best div{
+        width: 100%;
+        text-align: center;
+    }
+    .best button{
+        height: 50px;
+        width: 80%;
+        color: aliceblue;
+        font-size: small;
+        margin:auto;
+    }
+    .outer button{
+        background-color: white;
+        border: 1px solid gray;
+        color: rgb(44, 44, 44);
+    }
+
+    .cycles{
+        height: auto;
+        width: 100%;
+    }
+    .cycles div{
+        height: 500px;
+        margin: 20px;
+        width: 300px;
+    }
+    
+    
+
+    .img-1{
+        background-size: cover;
+        padding: 20px;
+        height: 600px;
+        width: 100%;
+    }
+    .img-2{
+        background-size: cover;
+        height: 200px;
+        width: 300px;
+        margin: 20px auto;
+        margin-left: 400px;
+    }
+    .img-3{
+        width: 300px;
+        height: 200px;
+        margin:auto;
+        margin-left: 400px;
+        font-size: small;  
+    }
+
+    .cycles-1{
+        height: auto;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .cycles-1 div{
+        margin: 20px;
+        height: 500px;
+        width: 300px;
+    }
+
+    .brand{
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .p-con{
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    .p-1{
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .p-1 div{
+        margin: 10px auto;
+    }
+    .p-2{
+        margin: 10px auto;
+        height: 600px;
+        width: 100%;
+        padding: 0;
+    }
+    .p-2 p{
+        font-size: medium;
+    }
+    .p-2 input{
+        width: 50%;
+        padding: 10px;
+        font-size: medium;
+    }
+    .p-2 button{
+        width: 50%;
+        margin: 50px auto;
+
+    }
+
+    .g-box{
+        height: auto;
+        width: 100%;
+    }
+    .g-box div{
+        height: auto;
+        width: 200px;
+        font-size: medium;
+    }
+    .g-box .last-box{
+        height: auto;
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .list ul li,a{
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: black;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .back{
+        background-size: cover;
+        height: 500px;
+    }
+    .front{
+        height: 220px;
+        width: 40%;
+        margin-bottom: 35px ;
+        margin-left: 100px;
+    }
+    .front div{
+        height: 150px;
+        width: 400px;
+        padding: 0 20px;
+        border-left: 6px solid rgb(189, 176, 154);
+        margin:40px;
+    }
+    .front div p{
+        font-size: medium;
+        line-height: 40px;
+    }
+    
+    .front div h2{
+        font-size: medium;
+    }
+    #h1{
+        padding: 0;
+        font-size: x-large;
+    }
+    #span{
+        font-size: x-large;
+    }
+    .front div button{
+        padding: 10px;
+        height: 40px;
+        width: 60%;
+        font-size: 10px;
+        margin: 40px auto 0 auto;
+    }
+
+    .curv{
+        height: 20px;
+        width: 50px;
+        bottom: 40px;
+    }
+    .curv div{
+        height: 10px;
+        width: 10px;
+    }
+
+    .top div{
+        height: 100px;
+        width: 100%;
+        font-weight: 900px;
+        font-size: 170px;
+        position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        color: rgb(234, 234, 234);
+    }
+    
+    .top .title{
+        width: 100%;
+        font-size: 32px;
+        left: 0px;
+    }
+    .para p{
+        margin-top: 30px;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .category{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px;
+    }
+    .category div{
+        font-size: small;
+        height: 500px;
+        width: 300px;
+        text-align: center;
+    }
+    .category div p{
+        line-height: normal;
+        font-size: small;
+    }
+    .category div button{
+        font-size: small;
+    }
+
+    .best div{
+        width: 100%;
+        text-align: center;
+    }
+    .best button{
+        height: 50px;
+        width: 80%;
+        color: aliceblue;
+        font-size: small;
+        margin:auto;
+    }
+    .outer button{
+        background-color: white;
+        border: 1px solid gray;
+        color: rgb(44, 44, 44);
+    }
+
+    .cycles{
+        height: auto;
+        width: 100%;
+    }
+    .cycles div{
+        height: 300px;
+        width: 250px;
+        margin: 10px 0;
+    }
+    .cycles  img{
+        height: 150px;
+        width: 150px;
+    }
+    
+
+    .img-1{
+        background-size: cover;
+        padding: 20px;
+        height: 700px;
+        width: 100%;
+    }
+    .img-2{
+        background-size: cover;
+        background-position: bottom;
+        height: 200px;
+        width: 400px;
+        margin: 20px auto;
+        margin-left: 560px;
+    }
+    .img-3{
+        width: 400px;
+        height: 200px;
+        margin:auto;
+        margin-left: 560px;
+        font-size: large;  
+    }
+
+    .cycles-1{
+        height: auto;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .cycles-1 div{
+        line-height: normal;
+        font-size: small;
+        margin: 20px;
+        height: 400px;
+        width: 200px;
+    }
+    .cycles-1  img{
+        height: 150px;
+        width: 150px;
+    }
+    div .rating{
+        height: 50px;
+    }
+
+    .brand{
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .brand img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .p-con{
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .p-1{
+        height: 400px;
+        width: 60%;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .p-1 div{
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+    .p-1 img{
+        margin: auto;
+        height: 200px;
+        width: 200px;
+    }
+    .p-2{
+        margin: 40px 20px 0 20px ;
+        height: 400px;
+        width: 40%;
+        padding: 10px;
+        font-size: 40px;
+    }
+    .p-2 p{
+        font-size: small;
+    }
+    .p-2 input{
+        width: 60%;
+        padding: 10px;
+        font-size: small;
+    }
+    .p-2 button{
+        width: 60%;
+        margin: 10px auto;
+
+    }
+    .p-2 img{
+        height: 100px;
+        width: 200px;
+    }
+
+    .g-box{
+        height: auto;
+        width: 100%;
+    }
+    .g-box div{
+        height: auto;
+        width: 200px;
+        line-height: 40px;
+        font-size: medium;
+    }
+    .g-box .last-box{
+        margin-bottom: 60px;
+        height: auto;
+    }
+    .g-box  .last-box input{
+        width: 100%;
+    }
+
+}
+    
+
+
