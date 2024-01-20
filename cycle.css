@@ -550,7 +550,6 @@ body{
     .front div{
         height: 200px;
         width: 400px;
-        background-color: blue;
         padding: 0 20px;
         border-left: 6px solid rgb(189, 176, 154);
         margin-right: 40px;
